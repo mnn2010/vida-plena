@@ -1,0 +1,111 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f9f3;
+    color: #333;
+}
+
+/* Encabezado principal */
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #76c893, #348c4e);
+    color: white;
+}
+
+.main-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+.main-header p {
+    font-size: 1.2em;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #2f855a;
+}
+
+.intro, .benefits, .factors {
+    margin-bottom: 30px;
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Lista */
+.benefits ul {
+    padding: 0;
+    list-style-type: square;
+    margin: 10px 0;
+}
+
+.benefits li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Factores */
+.factor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.factor {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    background: #56ab2f;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.factor:hover {
+    background: #2f855a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2f855a;
+    color: white;
+}
+.aspect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info {
+    flex: 2; /* Ocupa más espacio para el texto */
+}
+
+.image {
+    flex: 1; /* La imagen ocupa menos espacio */
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%; /* La imagen se adapta al contenedor */
+    height: auto;
+    border-radius: 10px;
+}
